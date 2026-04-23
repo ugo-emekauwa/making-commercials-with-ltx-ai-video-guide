@@ -65,7 +65,7 @@ Local AI video models enable these many benefits without the burden of ongoing t
  
 7. Clear the pre-filled text from the Text to Video (LTX 2.0) node, so that it is empty.
  
-8. Enter the following prompt in the shaded area into the textbox (the prompt might continue on the next page of this guide). Do not add any additional spaces or extra characters, as the prompts can be very sensitive. **`NOTE:`** If you have any issue copying the prompt from this guide, the prompt can also be accessed from the [sample_prompt_material folder](./sample_prompt_material) folder in the file [***Pseudoco-1-The-Pivot-Commercial.txt***](./sample_prompt_material/Pseudoco-1-The-Pivot-Commercial.txt).
+8. Enter the following prompt in the shaded area into the textbox (the prompt might continue on the next page of this guide). Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
   ``` 
 **Duration:** 10s
@@ -131,7 +131,7 @@ High contrast, bright flares, intense glow effects, sharp highlights
 15. This initial video is a high-energy, fast-paced commercial with the theme of PseudoCo helping customers adapt in quickly changing business markets. However, the tone can easily be changed for different customers via the text prompt. We will create another commercial with a smoother and calmer tone.
 16. Go to the Text to Video (LTX 2.0) node again, and clear the textbox so that it is empty.
  
-17. Enter the following new prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive. **`NOTE:`** If you have any issue copying the prompt from this guide, the prompt can also be accessed from the [sample_prompt_material folder](./sample_prompt_material) folder in the file [***Pseudoco-2-Smooth-is-Fast-Commercial.txt***](./sample_prompt_material/Pseudoco-2-Smooth-is-Fast-Commercial.txt).
+17. Enter the following new prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
  
   ```
 **Duration:** 10s
@@ -219,7 +219,7 @@ This demonstrates how commercials and promos can be easily modified and experime
  
 15. Clear the pre-filled text from the Text to Video (LTX 2.0) Distilled node, so that it is empty.
  
-16. Enter the following prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive. **`NOTE:`** If you have any issue copying the prompt from this guide, the prompt can also be accessed from the [sample_prompt_material folder](./sample_prompt_material) folder in the file [***dCloud-The-Way-Promo.txt***](./sample_prompt_material/dCloud-The-Way-Promo.txt).
+16. Enter the following prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
  ```
 a 3-d animated movie scene shows the little tiger turn to the wise elderly tiger on the left and ask: "what is the best way to perform Cisco demos?". with a deep booming voice, the elderly tiger turns to the little tiger and says: “dee-cloud is the way son”. the camera remains static in place
