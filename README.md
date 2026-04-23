@@ -41,7 +41,7 @@ Local AI video models enable these many benefits without the burden of ongoing t
   ```
 4. Run the quick-pre-setup script to install all of the software packages and drivers needed to run the AI models. **`WARNING:`** A server reboot is performed at the end of the script, so please save any work before starting.
   ```
-  chmod +x full-pre-setup.sh
+  chmod +x quick-pre-setup.sh
   ./quick-pre-setup.sh
   ```
 5. Run the video AI model setup deployment script.
