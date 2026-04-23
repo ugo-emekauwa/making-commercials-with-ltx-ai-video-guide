@@ -225,15 +225,13 @@ This demonstrates how commercials and promos can be easily modified and experime
 a 3-d animated movie scene shows the little tiger turn to the wise elderly tiger on the left and ask: "what is the best way to perform Cisco demos?". with a deep booming voice, the elderly tiger turns to the little tiger and says: “dee-cloud is the way son”. the camera remains static in place
  ```
 
-17. The Text to Video (LTX 2.0) Distilled node appears.
+17. In the upper-right corner of the ComfyUI window, click Run.
  
-18. In the upper-right corner of the ComfyUI window, click Run.
+18. This will begin the video generation process. The process will take about 1 minute. You can click View job history to view the status.
  
-19. This will begin the video generation process. The process will take about 1 minute. You can click View job history to view the status.
+19. Once the job is completed, the new video will be available in the Save Video node. You may need to use the Fit View or Zoom controls to bring the Save Video node fully into view.
  
-20. Once the job is completed, the new video will be available in the Save Video node. You may need to use the Fit View or Zoom controls to bring the Save Video node fully into view.
- 
-21. Click Play in the Save Video node to view the short promo for Cisco dCloud.
+20. Click Play in the Save Video node to view the short promo for Cisco dCloud.
  
 This demonstrates how easily commercials and marketing promos can be created using local AI video models.
 
