@@ -26,7 +26,7 @@ echo "Starting the Private AI Quick Pre-Setup..."
 # Set Permissions for Accessible Private AI Setup Files
 echo "Setting Permissions for Accessible Private AI Setup Files..."
 script_directory="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-private_ai_files=("full-pre-setup.sh" "chat-model-setup.sh" "chat-model-single-setup.sh" "chat-model-dual-setup.sh" "image-model-setup.sh" "vision-model-setup.sh" "reasoning-model-setup.sh" "reasoning-model-setup-alt.sh" "open-webui-only-setup.sh")
+private_ai_files=("full-pre-setup.sh" "chat-model-setup.sh" "chat-model-single-setup.sh" "chat-model-dual-setup.sh" "image-model-setup.sh" "vision-model-setup.sh" "reasoning-model-setup.sh" "reasoning-model-setup-alt.sh" "open-webui-only-setup.sh" "video-model-setup.sh")
 for private_ai_file in "${private_ai_files[@]}"; do
     target_file="$script_directory/$private_ai_file"
     [ -e "$target_file" ] && chmod a+x "$target_file"
