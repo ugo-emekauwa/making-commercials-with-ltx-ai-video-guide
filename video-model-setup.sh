@@ -2,7 +2,7 @@
 
 # Private AI Setup Dream Guide - AI Video Generation Model Setup
 # Written by Ugo Emekauwa (uemekauw@cisco.com, uemekauwa@gmail.com)
-# GitHub Repository: https://github.com/ugo-emekauwa/private-ai-setup-dream-guide
+# GitHub Repository: https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide
 # Summary: This script sets up an environment with the AI video generation model LTX-2 from Lightricks, in full (FP8) and distilled formats.
 ## ComfyUI serves as a frontend user-friendly GUI interface for interacting with the AI video and image generation models.
 
