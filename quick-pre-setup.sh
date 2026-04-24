@@ -3,7 +3,7 @@
 # Private AI Setup Dream Guide - Quick Pre-Setup
 # Written by Ugo Emekauwa (uemekauw@cisco.com, uemekauwa@gmail.com)
 # Credits: lazy-electrons (rajeshvs)
-# GitHub Repository: https://github.com/ugo-emekauwa/private-ai-setup-dream-guide
+# GitHub Repository: https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide
 # Summary: This script installs the NVIDIA CUDA Toolkit, NVIDIA Driver, NVIDIA Container Toolkit, Docker, the Hugging Face Hub Python Client, and NVTOP on Ubuntu 22.04.x and related systems.
 
 # Setup the Script Variables
