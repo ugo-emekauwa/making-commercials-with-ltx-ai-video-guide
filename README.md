@@ -5,8 +5,8 @@
   <img alt="Making Commercials with LTX AI Video Guide Title Graphic" title="Making Commercials with LTX AI Video Guide Title Graphic" src="./src/assets/making-commercials-with-ltx-ai-video-guide-title-graphic-001.png">
 </p>  
 <br>
-<p align="center">
-  The Making Commercials with LTX AI Video Guide automates the installation of the software needed for a local private AI video model setup using LTX-2 for making video commercials, marketing promos and more.
+<p>
+Making Commercials with LTX AI Video Guide automates the installation of the software needed for a local private AI video model setup using LTX-2 for making video commercials, marketing promos and more.
 
 Generative AI video models are rapidly changing how video content is created and used. Their benefits span creative, business, and technical areas, enabling the following:
   - **Faster Content Creation and Cost Reduction** – Traditional video production can take days or weeks. AI video models can create scenes in minutes from text prompts or images, dramatically reducing production time and enabling rapid prototyping for ideas, ads, or storyboards. Video models also lower or eliminate the costs of expensive video production equipment, editing, etc. Small teams (or even individuals) can produce high-quality videos, reducing reliance on studios, sets, and post-production workflows.
