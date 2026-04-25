@@ -51,20 +51,41 @@ Local AI video models enable these many benefits without the burden of ongoing t
   ```
 
 ## Using Text to Video to Create Commercials
-1. When you first open ComfyUI, you will be presented with the Templates menu. If the Templates menu does not open automatically, click AIl Templates in the left-side menu.
- 
+1. When you first open ComfyUI, you will be presented with the Templates menu. If the Templates menu does not open automatically, click Templates in the left-side menu.
+<br><br>
+![ComfyUI Templates Menu](./src/assets/comfyui-templates-menu-001.png "ComfyUI Templates Menu")
+<br><br>
+
 2. To begin, we will first work with text to video to create a commercial for a sample company named PseudoCo. Text-to-video involves using a text prompt to generate a video. In the Templates menu, click the option LTX-2 Text to Video.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Templates Menu Button](./src/assets/comfyui-ltx-2-text-to-video-templates-menu-button-001.png "ComfyUI LTX-2 Text to Video Templates Menu Button")
+<br><br>
+
 3. The LTX-2 Text to Video template will open a preconfigured workflow template in ComfyUI for creating videos using text prompts. ComfyUI is a node-based visual tool.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Workflow Template](./src/assets/comfyui-ltx-2-text-to-video-workflow-template-001.png "ComfyUI LTX-2 Text to Video Workflow Template")
+<br><br>
+
 4. In lower-right corner of the ComfyUI window, click Fit View to automatically zoom on the nodes.
- 
+<br><br>
+![ComfyUI Fit View](./src/assets/comfyui-fit-view-001.png "ComfyUI Fit View")
+<br><br>
+
 5. You can also use the Zoom controls to bring the nodes closer in view. Depending on your mouse interface, the scroll wheel can also be used to zoom and arrange the node view.
- 
+<br><br>
+![ComfyUI Zoom Controls](./src/assets/comfyui-zoom-controls-001.png "ComfyUI Zoom Controls")
+<br><br>
+
 6. Once the nodes are in view, let’s focus on the Text to Video (LTX 2.0) node, which has a text box pre-filled with a sample prompt.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Workflow Template Sample Prompt](./src/assets/comfyui-ltx-2-text-to-video-workflow-template-sample-prompt-001.png "ComfyUI LTX-2 Text to Video Workflow Template Sample Prompt")
+<br><br>
+
 7. Clear the pre-filled text from the Text to Video (LTX 2.0) node, so that it is empty.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Node Textbox](./src/assets/comfyui-ltx-2-text-to-video-node-textbox-001.png "ComfyUI LTX-2 Text to Video Node Textbox")
+<br><br>
+
 8. Enter the following prompt in the shaded area into the textbox (the prompt might continue on the next page of this guide). Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
   ``` 
@@ -118,19 +139,38 @@ High contrast, bright flares, intense glow effects, sharp highlights
   ```
 
 10. After entering the text prompt, in the Text to Video (LTX 2.0) node, click the frame_count field and change the value to 241. This will set your video to 10 seconds in length. Leave the other values at the defaults.
- 
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Node Frame Count Adjustment](./src/assets/comfyui-ltx-2-text-to-video-node-frame-count-adjustment-001.png "ComfyUI LTX-2 Text to Video Node Frame Count Adjustment")
+![ComfyUI LTX-2 Text to Video Node Frame Count Adjustment Complete](./src/assets/comfyui-ltx-2-text-to-video-node-frame-count-adjustment-002.png "ComfyUI LTX-2 Text to Video Node Frame Count Adjustment Complete")
+<br><br>
+
 11. In the upper-right corner of the ComfyUI window, click Run.
- 
+<br><br>
+![ComfyUI Run Button](./src/assets/comfyui-run-button-001.png "ComfyUI Run Button")
+<br><br>
+
 12. This will begin the video generation process. The process will take about 2 minutes and 30 seconds. You can click View job history to view the status.
- 
+<br><br>
+![ComfyUI Job History Button](./src/assets/comfyui-job-history-button-001.png "ComfyUI Job History Button")
+<br><br>
+
 13. Once the job is completed, the video with audio will be available in the Save Video node.
- 
+<br><br>
+![ComfyUI LTX-2 Save Video Node](./src/assets/comfyui-ltx-2-save-video-node-001.png "ComfyUI LTX-2 Save Video Node")
+<br><br>
+
 14. Click the play button in the Save Video node to view the commercial for PseudoCo.
- 
+<br><br>
+![ComfyUI LTX-2 Save Video Node Play Button](./src/assets/comfyui-ltx-2-save-video-node-play-button-001.png "ComfyUI LTX-2 Save Video Node Play Button")
+<br><br>
+
 15. This initial video is a high-energy, fast-paced commercial with the theme of PseudoCo helping customers adapt in quickly changing business markets. However, the tone can easily be changed for different customers via the text prompt. We will create another commercial with a smoother and calmer tone.
+
 16. Go to the Text to Video (LTX 2.0) node again, and clear the textbox so that it is empty.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Node Textbox](./src/assets/comfyui-ltx-2-text-to-video-node-textbox-001.png "ComfyUI LTX-2 Text to Video Node Textbox")
+<br><br>
+
 17. Enter the following new prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
  
   ```
@@ -178,61 +218,129 @@ Soft, premium highlights with subtle glow accents; slightly brighter and more en
   ```
 
 18. In the upper-right corner of the ComfyUI window, click Run again.
- 
+<br><br>
+![ComfyUI Run Button](./src/assets/comfyui-run-button-001.png "ComfyUI Run Button")
+<br><br>
+
 19. This will begin the video generation process. The process will be slightly shorter since the video model is already loaded in memory. You can click View job history to view the status.
- 
+<br><br>
+![ComfyUI Job History Button](./src/assets/comfyui-job-history-button-002.png "ComfyUI Job History Button")
+<br><br>
+
 20. Once the job is completed, the new video with audio will be available in the Save Video node.
- 
+<br><br>
+![ComfyUI LTX-2 Save Video Node](./src/assets/comfyui-ltx-2-save-video-node-002.png "ComfyUI LTX-2 Save Video Node")
+<br><br>
+
 21. Click Play in the Save Video node to view the new commercial for PseudoCo with a smoother and calmer tone.
- 
+<br><br>
+![ComfyUI LTX-2 Save Video Node Play Button](./src/assets/comfyui-ltx-2-save-video-node-play-button-002.png "ComfyUI LTX-2 Save Video Node Play Button")
+<br><br>
+
 This demonstrates how commercials and promos can be easily modified and experimented with based on customer needs with little cost. Let’s now explore how to use an image to make a promo.
 
 
 ## Using Image to Video to Make Marketing Promos
 1. In the upper left corner of the ComfyUI window, close the text to image workflow tab named video_ltx2_t2v. If asked to save any changes, you can click No.
- 
+<br><br>
+![ComfyUI LTX-2 Text to Video Workflow Tab](./src/assets/comfyui-ltx-2-text-to-video-workflow-tab-001.png "ComfyUI LTX-2 Text to Video Workflow Tab")
+<br><br>
+
 2. We will now make a short promo for the Cisco dCloud demo service using image-to-video. Image-to-video enables a base image as a reference for a generated video. Click Templates in the left-side menu.
- 
+<br><br>
+![ComfyUI Templates Menu Button](./src/assets/comfyui-templates-menu-button-001.png "ComfyUI Templates Menu Button")
+<br><br>
+
 3. The Templates menu opens.
- 
+<br><br>
+![ComfyUI Templates Menu](./src/assets/comfyui-templates-menu-001.png "ComfyUI Templates Menu")
+<br><br>
+
 4. In the Templates menu, click LTX-2 Image to Video (Distilled). Be sure to choose the distilled option, as it is faster and uses less resources than the full version used earlier in the text-to-video examples. The image-to-video generations can be memory intensive.
- 
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Templates Menu Button](./src/assets/comfyui-ltx-2-image-to-video-distilled-templates-menu-button-001.png "ComfyUI LTX-2 Image to Video Distilled Templates Menu Button")
+<br><br>
+
 5. The LTX-2 Image to Video (Distilled) workflow tab opens.
- 
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Workflow Template](./src/assets/comfyui-ltx-2-image-to-video-distilled-workflow-template-001.png "ComfyUI LTX-2 Image to Video Distilled Workflow Template")
+<br><br>
+
 6. In lower-right corner of the ComfyUI window, click Fit View to automatically zoom on the nodes.
- 
+<br><br>
+![ComfyUI Fit View](./src/assets/comfyui-fit-view-001.png "ComfyUI Fit View")
+<br><br>
+
 7. You can also use the Zoom controls to bring the nodes closer in view. Depending on your mouse interface, the scroll wheel can also be used to zoom and arrange the node view.
- 
-8. Once the nodes are in view, let’s focus on the Load Image node, which comes pre-filled with a sample image.
+<br><br>
+![ComfyUI Zoom Controls](./src/assets/comfyui-zoom-controls-001.png "ComfyUI Zoom Controls")
+<br><br>
+
+8. Once the nodes are in view, let’s focus on the Load Image node, which comes pre-filled with a sample image prompt.
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Image Prompt](./src/assets/comfyui-ltx-2-image-to-video-workflow-template-sample-prompt-001.png "ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Image Prompt")
+<br><br>
 
 9. Open another web browser tab or window and go to https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide/blob/main/sample_prompt_material/dCloud-The-Way-Promo.png. You will see an image named ***dCloud-The-Way-Promo.png*** of a father and son pair of tigers. This image was generated on local AI using an open source FLUX image model, which will be explored later in the image generation scenario of this demo guide.
 
 10. Download the image named ***dCloud-The-Way-Promo.png*** to a folder on your machine.
- 
+
 11. Go back to ComfyUI. In the Load Image node, click choose file to upload.
- 
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Load Image Node](./src/assets/comfyui-ltx-2-image-to-video-load-image-node-001.png "ComfyUI LTX-2 Image to Video Distilled Load Image Node")
+<br><br>
+
 12. A file explorer window opens. Navigate to the folder location where you downloaded the image named ***dCloud-The-Way-Promo.png***, select it and click Open.
- 
+<br><br>
+![Web Browser File Explorer Window](./src/assets/web-browser-file-explorer-window-001.png "Web Browser File Explorer Window")
+<br><br>
+
 13. The image of the two tigers will be opened in the Load Image node.
- 
-14. Let’s now focus on the Text to Video (LTX 2.0) Distilled node, which has a text box pre-filled with a sample prompt.
- 
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Load Image Node File Uploaded](./src/assets/comfyui-ltx-2-image-to-video-load-image-node-file-uploaded-001.png "ComfyUI LTX-2 Image to Video Distilled Load Image Node File Uploaded")
+<br><br>
+
+14. Let’s now focus on the Text to Video (LTX 2.0) Distilled node, which has a text box pre-filled with a sample text prompt.
+<br><br>
+![ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Text Prompt](./src/assets/comfyui-ltx-2-image-to-video-workflow-template-sample-prompt-002.png "ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Text Prompt")
+<br><br>
+
 15. Clear the pre-filled text from the Text to Video (LTX 2.0) Distilled node, so that it is empty.
- 
+<br><br>
+![ComfyUI LTX-2 Image to Video Node Textbox](./src/assets/comfyui-ltx-2-image-to-video-node-textbox-001.png "ComfyUI LTX-2 Image to Video Node Textbox")
+<br><br>
+
 16. Enter the following prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
  ```
 a 3-d animated movie scene shows the little tiger turn to the wise elderly tiger on the left and ask: "what is the best way to perform Cisco demos?". with a deep booming voice, the elderly tiger turns to the little tiger and says: “dee-cloud is the way son”. the camera remains static in place
  ```
 
-17. In the upper-right corner of the ComfyUI window, click Run.
- 
-18. This will begin the video generation process. The process will take about 1 minute. You can click View job history to view the status.
- 
-19. Once the job is completed, the new video will be available in the Save Video node. You may need to use the Fit View or Zoom controls to bring the Save Video node fully into view.
- 
-20. Click Play in the Save Video node to view the short promo for Cisco dCloud.
- 
+17. The Text to Video (LTX 2.0) Distilled node should appear as shown in the screenshot below after entering the text prompt:
+<br><br>
+![ComfyUI LTX-2 Image to Video Node Textbox](./src/assets/comfyui-ltx-2-image-to-video-node-textbox-002.png "ComfyUI LTX-2 Image to Video Node Textbox")
+<br><br>
+
+18. In the upper-right corner of the ComfyUI window, click Run.
+<br><br>
+![ComfyUI Run Button](./src/assets/comfyui-run-button-001.png "ComfyUI Run Button")
+<br><br>
+
+19. This will begin the video generation process. The process will take about 1 minute. You can click View job history to view the status.
+<br><br>
+![ComfyUI Job History Button](./src/assets/comfyui-job-history-button-003.png "ComfyUI Job History Button")
+<br><br>
+
+20. Once the job is completed, the new video will be available in the Save Video node. You may need to use the Fit View or Zoom controls to bring the Save Video node fully into view.
+<br><br>
+![ComfyUI LTX-2 Save Video Node](./src/assets/comfyui-ltx-2-save-video-node-003.png "ComfyUI LTX-2 Save Video Node")
+<br><br>
+
+21. Click Play in the Save Video node to view the short promo for Cisco dCloud.
+<br><br>
+![ComfyUI LTX-2 Save Video Node Play Button](./src/assets/comfyui-ltx-2-save-video-node-play-button-003.png "ComfyUI LTX-2 Save Video Node Play Button")
+<br><br>
+
 This demonstrates how easily commercials and marketing promos can be created using local AI video models.
 
 ###### 
