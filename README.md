@@ -284,6 +284,9 @@ This demonstrates how commercials and promos can be easily modified and experime
 9. Open another web browser tab or window and go to https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide/blob/main/sample_prompt_material/dCloud-The-Way-Promo.png. You will see an image named ***dCloud-The-Way-Promo.png*** of a father and son pair of tigers. This image was generated on local AI using an open source FLUX image model, which will be explored later in the image generation scenario of this demo guide.
 
 10. Download the image named ***dCloud-The-Way-Promo.png*** to a folder on your machine.
+<br><br>
+![GitHub Sample Image Prompt Download Link](./src/assets/github-sample-image-prompt-download-link-001.png "GitHub Sample Image Prompt Download Link")
+<br><br>
 
 11. Go back to ComfyUI. In the Load Image node, click choose file to upload.
 <br><br>
@@ -342,6 +345,8 @@ a 3-d animated movie scene shows the little tiger turn to the wise elderly tiger
 <br><br>
 
 This demonstrates how easily commercials and marketing promos can be created using local AI video models.
+
+Additional video generation examples for LTX-2 can be explored using the prompting guide at https://ltx.io/model/model-blog/prompting-guide-for-ltx-2.
 
 ###### 
 
