@@ -86,7 +86,7 @@ Local AI video models enable these many benefits without the burden of ongoing t
 ![ComfyUI LTX-2 Text to Video Node Textbox](./src/assets/comfyui-ltx-2-text-to-video-node-textbox-001.png "ComfyUI LTX-2 Text to Video Node Textbox")
 <br><br>
 
-8. Enter the following prompt in the shaded area into the textbox (the prompt might continue on the next page of this guide). Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
+8. Enter the following prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
   ``` 
 **Duration:** 10s
