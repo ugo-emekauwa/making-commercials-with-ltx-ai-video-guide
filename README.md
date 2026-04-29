@@ -353,7 +353,7 @@ Additional video generation examples for LTX-2 can be explored using the prompti
 ## Demonstrations and Learning Labs
 Making Commercials with LTX AI Video Guide is used in AI, Cisco UCS, and Intersight demonstrations and labs on Cisco dCloud:
 
-- [Run Gen AI and LLMs on Cisco UCS X-Series with NVIDIA GPUs](https://dcloud2.cisco.com/demo/run-gen-ai-and-llms-on-cisco-ucs-x-series)
+- [Run Gen AI and LLMs on Cisco UCS X-Series with NVIDIA GPUs](https://dcloud2.cisco.com/demo/run-genai-llms-cisco-ucs-x-series)
 <br><br>
 
 ![Cisco UCS X-Series Lab Topology](./src/assets/Cisco_UCS_X-Series_Lab_Topology_2.png "Cisco UCS X-Series Lab Topology")
