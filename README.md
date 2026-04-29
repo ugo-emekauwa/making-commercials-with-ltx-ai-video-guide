@@ -281,7 +281,7 @@ This demonstrates how commercials and promos can be easily modified and experime
 ![ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Image Prompt](./src/assets/comfyui-ltx-2-image-to-video-workflow-template-sample-prompt-001.png "ComfyUI LTX-2 Image to Video Distilled Workflow Template Sample Image Prompt")
 <br><br>
 
-9. Open another web browser tab or window and go to https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide/blob/main/sample_prompt_material/dCloud-The-Way-Promo.png. You will see an image named ***dCloud-The-Way-Promo.png*** of a father and son pair of tigers. This image was generated on local AI using an open source FLUX image model, which will be explored later in the image generation scenario of this demo guide.
+9. Open another web browser tab or window and go to https://github.com/ugo-emekauwa/making-commercials-with-ltx-ai-video-guide/blob/main/sample_prompt_material/dCloud-The-Way-Promo.png. You will see an image named ***dCloud-The-Way-Promo.png*** of a father and son pair of tigers. This image was generated on local AI using an open source FLUX image model, which highlights how the entire image to video process can be accomplished using local AI.
 
 10. Download the image named ***dCloud-The-Way-Promo.png*** to a folder on your machine.
 <br><br>
@@ -313,7 +313,7 @@ This demonstrates how commercials and promos can be easily modified and experime
 ![ComfyUI LTX-2 Image to Video Node Textbox](./src/assets/comfyui-ltx-2-image-to-video-node-textbox-001.png "ComfyUI LTX-2 Image to Video Node Textbox")
 <br><br>
 
-16. Enter the following prompt in the shaded area into the textbox. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
+16. Enter the following prompt in the shaded area into the textbox. Notice how this text prompt is less detailed compared to the earlier text to video prompts, since we are also working with an image as the basis to establish the desired look and environment for the promo. Do not add any additional spaces or extra characters, as the prompts can be very sensitive.
 
  ```
 a 3-d animated movie scene shows the little tiger turn to the wise elderly tiger on the left and ask: "what is the best way to perform Cisco demos?". with a deep booming voice, the elderly tiger turns to the little tiger and says: “dee-cloud is the way son”. the camera remains static in place
