@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-  <img alt="Making Commercials with LTX AI Video Guide Title Graphic" title="Making Commercials with LTX AI Video Guide Title Graphic" src="./src/assets/making-commercials-with-ltx-ai-video-guide-title-graphic-001.png">
+  <img alt="Making Commercials with LTX AI Video Guide Title Graphic" title="Making Commercials with LTX AI Video Guide Title Graphic" src="./src/assets/making-commercials-with-ltx-ai-video-guide-title-graphic-002.png">
 </p>  
 <br>
 <p>
